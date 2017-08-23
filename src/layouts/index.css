@@ -524,6 +524,25 @@ li > p {
   .iamCol { text-align: center; font-size:30pt !important; }
   .iamCol p { display: inline !important; }
   .slideCol { font-size: 50pt; text-align: center; margin-top: 5px; }
+  .scroller {
+    height: 3.75em;
+    margin-bottom: 1em;
+  }
+  @keyframes scroll {
+    0%   {margin-top: 5px;}
+    15%  {margin-top: 5px;}
+
+    25%  {margin-top: -198pt;}
+    40%  {margin-top: -198pt;}
+
+    50%  {margin-top: -390pt;}
+    65%  {margin-top: -390pt;}
+
+    75%  {margin-top: -575pt;}
+    90%  {margin-top: -575pt;}
+
+    100% {margin-top: 0px;}
+  }
 }
 
 /* Medium Devices, Desktops */
