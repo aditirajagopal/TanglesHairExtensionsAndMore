@@ -31,10 +31,10 @@ const IndexPage = () =>
   	    </blockquote>
 	  </header>
 	  <div className="fn fl-ns w-60-ns content">
-	  	<h1 className="f1 lh-title fw4 first">If no one is asking</h1>
-	  	<h1 className="f1 lh-title fw4 second">Who does your hair?</h1>
-	  	<h1 className="f-headline lh-solid third">Come See me.</h1>
-		<div id="textSlider" className="row">
+	  	<h1 className="f1 lh-title fw4 first ifBig">If no one is asking</h1>
+	  	<h1 className="f1 lh-title fw4 second ifBig">Who does your hair?</h1>
+	  	<h1 className="f-headline lh-solid third ifBig">Come See me.</h1>
+		<div id="textSlider" className="row ifBig">
 			<div className="col-xs-12 col-sm-12 col-md-7 col-lg-8 slideCol">
 				<div className="scroller">
 					<div className="inner">
@@ -50,92 +50,223 @@ const IndexPage = () =>
 		<img className="w-100 dib measure f3" src="http://mrmrs.github.io/photos/009.jpg" alt="A photo of sutro baths by Adam Morse"/>
 
 	  	<h1 className="f1 lh-title fw4">Services</h1>
-		<article className="pa4">
-		  <div className="fl w-100 w-50-ns tc">
-		    <h1 className="f5 br3 br--top black-60 mv0 pv2 ph3">Hair Cuts</h1><small>Includes shampoo and blow dry</small>
-			  <div className="pa3 bt b--light-silver">
-				<ul className="list pl0 ml0 center mw6 br2">
-					<li className="ph3 pv3 bb b--light-silver">Clipper Cuts ... $25</li>
-					<li className="ph3 pv3 bb b--light-silver">Scissor Cuts ... $35</li>
-					<li className="ph3 pv3 bb b--light-silver">Kids Under 10 ... $20</li>
-					<li className="ph3 pv3 bb b--light-silver">Baby's First Haircut ... Free</li>
-					<li className="ph3 pv3 bb b--light-silver">Bangs Trim ... $10</li>
-					<li className="ph3 pv3 bb b--light-silver">Beard Trim ... $15</li>
-					<li className="ph3 pv3 bb b--light-silver">Mustache Trim ... $10</li>
-					<li className="ph3 pv3 bb b--light-silver">Beard & Mustache ... $20</li>
-					<li className="ph3 pv3">Cut w/ Color Or Perm ... $20</li>
-				</ul>
-			  </div>
+		<div className="pa4">
+		  <div className="overflow-auto">
+		  	<h2 className="f3 lh-title fw4">Hair Cuts</h2>
+		    <table className="f6 w-100 mw8 center" cellspacing="0">
+		      <tbody className="lh-copy">
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Clipper Cuts</td>
+		          <td className="pv3 pr3 bb b--black-20">$25</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Scissor Cuts</td>
+		          <td className="pv3 pr3 bb b--black-20">$35</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Kids Under 10</td>
+		          <td className="pv3 pr3 bb b--black-20">$20</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Baby's First Haircut</td>
+		          <td className="pv3 pr3 bb b--black-20">Free</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Bangs Trim</td>
+		          <td className="pv3 pr3 bb b--black-20">$10</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Beard Trim</td>
+		          <td className="pv3 pr3 bb b--black-20">$15</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Mustache Trim</td>
+		          <td className="pv3 pr3 bb b--black-20">$10</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Beard & Mustache</td>
+		          <td className="pv3 pr3 bb b--black-20">$20</td>
+		        </tr>
+		      </tbody>
+		    </table>
 		  </div>
-		  <div className="fl w-100 w-50-ns tc">
-		    <h1 className="f5 br3 br--top black-60 mv0 pv2 ph3">Styling</h1><br/>
-			  <div className="pa3 bt b--light-silver">
-				<ul className="list pl0 ml0 center mw6 br2">
-					<li className="ph3 pv3 bb b--light-silver">Shampoo & Blow dry ... $25</li>
-					<li className="ph3 pv3 bb b--light-silver">Shampoo, Blow dry + Hot Iron ... $30</li>
-					<li className="ph3 pv3 bb b--light-silver">Flat Iron Straightening ... $30 per hour</li>
-					<li className="ph3 pv3 bb b--light-silver">Up-do ... $60</li>
-					<li className="ph3 pv3">Up-do w/ Clip In Extensions ... $90</li>
-				</ul>
-			  </div>
-		    <h1 className="f5 br3 br--top black-60 mv0 pv2 ph3">Extensions</h1>
-			  <div className="pa3 bt b--light-silver">
-				<ul className="list pl0 ml0 center mw6 b--light-silver br2">
-					<li className="ph3 pv3 bb b--light-silver">Consultation ... Free</li>
-					<li className="ph3 pv3 bb b--light-silver">Reset ... $160</li>
-					<li className="ph3 pv3 bb b--light-silver">Remove Only ... $90</li>
-					<li className="ph3 pv3">Install Only ... $90</li>
-				</ul>
-			  </div>
+		  <br/>
+		  <div className="overflow-auto">
+		  	<h2 className="f3 lh-title fw4">Styling</h2>
+		    <table className="f6 w-100 mw8 center" cellspacing="0">
+		      <tbody className="lh-copy">
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Shampoo & Blow dry</td>
+		          <td className="pv3 pr3 bb b--black-20">$25</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Shampoo, Blow dry + Hot Iron</td>
+		          <td className="pv3 pr3 bb b--black-20">$30</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Flat Iron Straightening</td>
+		          <td className="pv3 pr3 bb b--black-20">$30 per hour</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Up-do</td>
+		          <td className="pv3 pr3 bb b--black-20">$60</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Up-do w/ Clip In Extensions</td>
+		          <td className="pv3 pr3 bb b--black-20">$90</td>
+		        </tr>
+		      </tbody>
+		    </table>
 		  </div>
-		</article>
-
-		<article className="pa4">
-		  <div className="fl w-100 w-50-ns tc">
-		    <h1 className="f5 br3 br--top black-60 mv0 pv2 ph3">Coloring</h1><small>Includes Blow Dry + Longer Hair Additional</small>
-			  <div className="pa3 bt b--light-silver">
-				<ul className="list pl0 ml0 center mw6 b--light-silver br2">
-					<li className="ph3 pv3 bb b--light-silver">Just Roots 1 Color ... $60</li>
-					<li className="ph3 pv3 bb b--light-silver">Full Head/Color Refresher ... $75</li>
-					<li className="ph3 pv3 bb b--light-silver">Partial Foil (up to 20 foils) ... $50</li>
-					<li className="ph3 pv3 bb b--light-silver">Full Foil (up to 50 foils) ... $80</li>
-					<li className="ph3 pv3 bb b--light-silver">Babylites (up to 90 foils) ... $120</li>
-					<li className="ph3 pv3 bb b--light-silver">Color w/Partial Foil ... $90</li>
-					<li className="ph3 pv3 bb b--light-silver">Color w/Full Foil ... $120</li>
-					<li className="ph3 pv3 bb b--light-silver">Color w/Babylites ... $160</li>
-					<li className="ph3 pv3 bb b--light-silver">Partial Balayage ... $50</li>
-					<li className="ph3 pv3 bb b--light-silver">Full Balayage ... $80+</li>
-					<li className="ph3 pv3 bb b--light-silver">Color w/Partial Balayage ... $90</li>
-					<li className="ph3 pv3 bb b--light-silver">Color w/Full Balayage ... $120+</li>
-					<li className="ph3 pv3">Ombre ... $90</li>
-				</ul>
-			  </div>
+		  <br/>
+		  <div className="overflow-auto">
+		  	<h2 className="f3 lh-title fw4">Coloring Includes Blow Dry + Longer Hair Additional</h2>
+		    <table className="f6 w-100 mw8 center" cellspacing="0">
+		      <tbody className="lh-copy">
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Just Roots 1 Color</td>
+		          <td className="pv3 pr3 bb b--black-20">$60</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Full Head/Color Refresher</td>
+		          <td className="pv3 pr3 bb b--black-20">$75</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Partial Foil (up to 20 foils)</td>
+		          <td className="pv3 pr3 bb b--black-20">$50</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Full Foil (up to 50 foils)</td>
+		          <td className="pv3 pr3 bb b--black-20">$80</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Babylites (up to 90 foils)</td>
+		          <td className="pv3 pr3 bb b--black-20">$120</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Color w/Partial Foil</td>
+		          <td className="pv3 pr3 bb b--black-20">$90</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Color w/Full Foil</td>
+		          <td className="pv3 pr3 bb b--black-20">$120</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Color w/Babylites</td>
+		          <td className="pv3 pr3 bb b--black-20">$160</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Partial Balayage</td>
+		          <td className="pv3 pr3 bb b--black-20">$50</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Full Balayage</td>
+		          <td className="pv3 pr3 bb b--black-20">$80+</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Color w/Partial Balayage</td>
+		          <td className="pv3 pr3 bb b--black-20">$90</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Color w/Full Balayage</td>
+		          <td className="pv3 pr3 bb b--black-20">$120+</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Ombre</td>
+		          <td className="pv3 pr3 bb b--black-20">$90</td>
+		        </tr>
+		      </tbody>
+		    </table>
 		  </div>
-		  <div className="fl w-100 w-50-ns tc">
-		    <h1 className="f5 br3 br--top black-60 mv0 pv2 ph3">Keratin, Straightening, Perming</h1><small>Includes Blow Dry + Longer Hair Additional</small>
-			  <div className="pa3 bt b--light-silver">
-				<ul className="list pl0 ml0 center mw6 b--light-silver br2">
-					<li className="ph3 pv3 bb b--light-silver">Brazilian Blowout ... $160</li>
-					<li className="ph3 pv3 bb b--light-silver">Below Bra Strap ... $240</li>
-					<li className="ph3 pv3 bb b--light-silver">GK Smoothing ... $160</li>
-					<li className="ph3 pv3 bb b--light-silver">Below Bra Strap ... $240</li>
-					<li className="ph3 pv3 bb b--light-silver">Japanese Blowout ... $280</li>
-					<li className="ph3 pv3 bb b--light-silver">Below Bra Strap ... $320</li>
-					<li className="ph3 pv3 bb b--light-silver">Basic Perm ...$60</li>
-					<li className="ph3 pv3 bb b--light-silver">Specialty Perm ... $120+</li>
-					<li className="ph3 pv3">Straightening Perm ... $120+</li>
-				</ul>
-			  </div>
-		    <h1 className="f5 br3 br--top black-60 mv0 pv2 ph3">Add Ons</h1>
-			  <div className="pa3 bt b--light-silver">
-				<ul className="list pl0 ml0 center mw6 b--light-silver br2">
-					<li className="ph3 pv3 bb b--light-silver">Brow, Lip Or Chin Wax ... $10 each</li>
-					<li className="ph3 pv3 bb b--light-silver">Full Face Wax ... $27</li>
-					<li className="ph3 pv3">Airbrush Makeup Application ... $45</li>
-				</ul>
-			  </div>
+		  <br/>
+		  <div className="overflow-auto">
+		  	<h2 className="f3 lh-title fw4">Keratin, Straightening, Perming Includes Blow Dry + Longer Hair Additional</h2>
+		    <table className="f6 w-100 mw8 center" cellspacing="0">
+		      <tbody className="lh-copy">
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Brazilian Blowout</td>
+		          <td className="pv3 pr3 bb b--black-20">$160</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Below Bra Strap</td>
+		          <td className="pv3 pr3 bb b--black-20">$240</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">GK Smoothing</td>
+		          <td className="pv3 pr3 bb b--black-20">$160</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Below Bra Strap</td>
+		          <td className="pv3 pr3 bb b--black-20">$240</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Japanese Blowout</td>
+		          <td className="pv3 pr3 bb b--black-20">$280</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Below Bra Strap</td>
+		          <td className="pv3 pr3 bb b--black-20">$320</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Basic Perm</td>
+		          <td className="pv3 pr3 bb b--black-20">$60</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Specialty Perm</td>
+		          <td className="pv3 pr3 bb b--black-20">$120+</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Straightening Perm</td>
+		          <td className="pv3 pr3 bb b--black-20">$120+</td>
+		        </tr>
+		      </tbody>
+		    </table>
 		  </div>
-		</article>
+		  <br/>
+		  <div className="overflow-auto">
+		  	<h2 className="f3 lh-title fw4">Extensions</h2>
+		    <table className="f6 w-100 mw8 center" cellspacing="0">
+		      <tbody className="lh-copy">
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Consultation</td>
+		          <td className="pv3 pr3 bb b--black-20">Free</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Reset</td>
+		          <td className="pv3 pr3 bb b--black-20">$160</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Remove Only</td>
+		          <td className="pv3 pr3 bb b--black-20">$90</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Install Only</td>
+		          <td className="pv3 pr3 bb b--black-20">$90</td>
+		        </tr>
+		      </tbody>
+		    </table>
+		  </div>
+		  <br/>
+		  <div className="overflow-auto">
+		  	<h2 className="f3 lh-title fw4">Add Ons</h2>
+		    <table className="f6 w-100 mw8 center" cellspacing="0">
+		      <tbody className="lh-copy">
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Brow, Lip Or Chin Wax</td>
+		          <td className="pv3 pr3 bb b--black-20">$10 each</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Full Face Wax</td>
+		          <td className="pv3 pr3 bb b--black-20">$27</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 bb b--black-20">Airbrush Makeup Application</td>
+		          <td className="pv3 pr3 bb b--black-20">$45</td>
+		        </tr>
+		      </tbody>
+		    </table>
+		  </div>
+		</div>
 
 	  	<h1 className="f1 lh-title fw4">About</h1>
 		<article className="pa4">
