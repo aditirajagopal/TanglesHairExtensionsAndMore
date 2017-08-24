@@ -12,18 +12,22 @@ const TemplateWrapper = ({ children }) =>
       meta={[
         { name: 'Tangles Hair Extensions and More', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'keywords', content: 'hair, hair extensions, coloring, ombre, balayage, brazilian blowouts, keratin treatments' },
+        { name: 'description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
+        { name: 'image', content: {kellieLogo} }
+        { itemprop: 'name', content: 'Tangles Hair Extensions and More' },
+        { itemprop: 'description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
+        { itemprop: 'image', content: {kellieLogo} }
+        { name: 'twitter:card', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
+        { name: 'twitter:title', content: 'Tangles Hair Extensions and More' },
+        { name: 'twitter:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
+        { name: 'og:title', content: 'Tangles Hair Extensions and More' },
+        { name: 'og:image', content: {kellieLogo} }
+        { name: 'og:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
+        { name: 'og:site_name', content: 'Tangles Hair Extensions and More' },
+        { name: 'fb:admins', content: '238806386155182' },
+        { name: 'og:type', content: 'website' },
       ]}
     >
-    <meta property="og:title" content="Tangles Hair Extensions and More" />
-    <meta property="og:description" content="Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience" />
-    <meta property="og:image" content={kellieLogo} />
-    <meta property="og:url" content="https://kellie-does-ur-hair.netlify.com/" />
-    <meta name="twitter:card" content="summary_large_image" />
-
-    <meta property="og:site_name" content="Tangles Hair Extensions and More" />
-    <meta name="twitter:image:alt" content="Tangles Hair Extensions and More" />
-
-    <meta property="fb:app_id" content="Tangles Hair Extensions and More" />
       <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"/>
     </Helmet>
     <div>
