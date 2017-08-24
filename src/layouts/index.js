@@ -13,15 +13,15 @@ const TemplateWrapper = ({ children }) =>
         { name: 'Tangles Hair Extensions and More', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'keywords', content: 'hair, hair extensions, coloring, ombre, balayage, brazilian blowouts, keratin treatments' },
         { name: 'description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
-        { name: 'image', content: {kellieLogo} }
+        { name: 'image', content: kellieLogo },
         { itemprop: 'name', content: 'Tangles Hair Extensions and More' },
         { itemprop: 'description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
-        { itemprop: 'image', content: {kellieLogo} }
+        { itemprop: 'image', content: kellieLogo },
         { name: 'twitter:card', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'twitter:title', content: 'Tangles Hair Extensions and More' },
         { name: 'twitter:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'og:title', content: 'Tangles Hair Extensions and More' },
-        { name: 'og:image', content: {kellieLogo} }
+        { name: 'og:image', content: kellieLogo },
         { name: 'og:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'og:site_name', content: 'Tangles Hair Extensions and More' },
         { name: 'fb:admins', content: '238806386155182' },
