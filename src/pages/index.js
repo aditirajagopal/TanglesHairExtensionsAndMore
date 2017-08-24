@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import kellieLogo from '../images/kellie_logo.svg'
+import kellieHeader from '../images/kellie_grid.png'
+import kelliePhoto from '../images/kellie.png'
 
 const IndexPage = () =>
   <div>
@@ -47,7 +49,7 @@ const IndexPage = () =>
 			</div>
 
 		</div>
-		<img className="w-100 dib measure f3" src="http://mrmrs.github.io/photos/009.jpg" alt="A photo of sutro baths by Adam Morse"/>
+		<img className="w-100 dib measure f3" src={kellieHeader} alt="Some of my highlights"/>
 
 	  	<h1 className="f1 lh-title fw4">Services</h1>
 		<div className="pa4">
@@ -270,7 +272,10 @@ const IndexPage = () =>
 
 	  	<h1 className="f1 lh-title fw4">About</h1>
 		<article className="pa4">
-			<h2>Hi I’m Kellie Smith</h2>
+		<header className="tc">
+  		  <img src={kelliePhoto} className="br-100 pa1 ba b--black-10 h5 w5" alt="avatar" />
+		  <h1 className="f5 f4-ns fw6 mid-gray">Hi I’m Kellie Smith</h1>
+		</header>
 		    <p className="f5 lh-copy measure mt0-ns">
 		      I completed my early career education from John Jay Academy in New Orleans, 
 		      Louisiana.  I went on for further education in Dallas, Texas and Dublin, Ireland
