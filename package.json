@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Tangles Hair Extensions and More",
+  "description": "Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Aditi Rajagopal - araja@umich.edu",
   "dependencies": {
     "gatsby": "^1.8.10",
     "gatsby-link": "^1.6.5",

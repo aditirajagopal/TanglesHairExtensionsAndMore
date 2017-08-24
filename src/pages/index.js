@@ -122,7 +122,8 @@ const IndexPage = () =>
 		  </div>
 		  <br/>
 		  <div className="overflow-auto">
-		  	<h2 className="f3 lh-title fw4">Coloring Includes Blow Dry + Longer Hair Additional</h2>
+		  	<h2 className="f3 lh-title fw4">Coloring</h2>
+		  	<small>(Includes Blow Dry + Longer Hair Additional)</small>
 		    <table className="f6 w-100 mw8 center" cellspacing="0">
 		      <tbody className="lh-copy">
 		        <tr>
@@ -182,7 +183,8 @@ const IndexPage = () =>
 		  </div>
 		  <br/>
 		  <div className="overflow-auto">
-		  	<h2 className="f3 lh-title fw4">Keratin, Straightening, Perming Includes Blow Dry + Longer Hair Additional</h2>
+		  	<h2 className="f3 lh-title fw4">Keratin, Straightening, & Perming</h2>
+		  	<small>(Includes Blow Dry + Longer Hair Additional)</small>
 		    <table className="f6 w-100 mw8 center" cellspacing="0">
 		      <tbody className="lh-copy">
 		        <tr>
@@ -302,31 +304,12 @@ const IndexPage = () =>
 
 	  	<h1 className="f1 lh-title fw4">Get in Touch</h1>
 		<div className="ph3">
-		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black addMargin" href="#0">Styleseat</a>
-		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black addMargin" href="#0">Yelp</a>
-		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black addMargin" href="#0">Facebook</a>
-		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black" href="#0">Instagram</a>
+		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black addMargin" href="https://www.styleseat.com/m/book/p/606937">Styleseat</a>
+		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black addMargin" href="https://www.yelp.com/biz/tangles-hair-extensions-and-more-rochester">Yelp</a>
+		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-black addMargin" href="https://www.facebook.com/Tangles-Hair-Extensions-and-More-238806386155182/">Facebook</a>
 		</div>
 	  </div>
 	</article>
   </div>
 
 export default IndexPage
-
-
-
-
-
-    // <div class="dtc v-mid">
-    //   <header class="white-70">
-    //     <h2 class="f6 fw1 ttu tracked mb2 lh-title">Issue Six</h2>
-    //     <h3 class="f6 fw1 lh-title">Summer MMXVI</h3>
-    //   </header>
-    //   <h1 class="f1 f-headline-l fw1 i white-60">The Chronicles</h1>
-    //   <blockquote class="ph0 mh0 measure f4 lh-copy center">
-    //     <p class="fw1 white-70">
-    //       It's the space you put between the notes that make the music.
-    //     </p>
-    //     <cite class="f6 ttu tracked fs-normal">Massimo Vignelli</cite>
-    //   </blockquote>
-    // </div>
