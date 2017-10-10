@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tangles Hair Extensions and More`,
+    title: `TanglesHairExtensionsandMore`,
   },
   plugins: [`gatsby-plugin-react-helmet`],
 }
