@@ -13,10 +13,8 @@ const IndexPage = () =>
 	    <blockquote className="ph0 mh0 measure f4 lh-copy center white">
 
 	      <time className="f6 tracked"> 
-	      	1201 S. Broadway Suite 24 Studio 1E
-	      	<br/>
-			Rochester MN 55904
-	      	<br/>
+			1201 S. Broadway Suite 24 Studio #1 <br/>
+			Rochester MN 55904 <br/>
 			507-923-8614
 	      </time>
 	      <br/>

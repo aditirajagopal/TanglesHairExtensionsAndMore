@@ -1,7 +1,7 @@
 # Tangles Hair Extensions and More
 
 ## Address
-1201 S. Broadway Suite 24 Studio 1E
+1201 S. Broadway Suite 24 Studio #1
 Rochester MN 55904
 507-923-8614
 
