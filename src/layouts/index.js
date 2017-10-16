@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import kellieLogo from '../images/kellie_logo.svg'
+import kellieSocials from '../images/kellie_socials.png'
 import './index.css'
 
 const TemplateWrapper = ({ children }) =>
@@ -22,13 +23,14 @@ const TemplateWrapper = ({ children }) =>
         { name: 'twitter:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'twitter:image', content: kellieLogo },
         { name: 'og:title', content: 'Tangles Hair Extensions and More' },
-        { name: 'og:image', content: kellieLogo },
+        { name: 'og:image', content: kellieSocials },
         { name: 'og:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'og:site_name', content: 'Tangles Hair Extensions and More' },
         { name: 'fb:admins', content: '238806386155182' },
         { name: 'og:type', content: 'website' },
       ]}
     >
+      <link rel="shortcut icon" type="image/svg" href={kellieLogo} />
       <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.0/css/tachyons.min.css"/>
     </Helmet>
     <div>
