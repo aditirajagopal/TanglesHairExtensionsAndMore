@@ -26,8 +26,10 @@ const TemplateWrapper = ({ children }) =>
         { name: 'og:image', content: kellieSocials },
         { name: 'og:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
         { name: 'og:site_name', content: 'Tangles Hair Extensions and More' },
-        { name: 'fb:admins', content: '238806386155182' },
         { name: 'og:type', content: 'website' },
+        { name: 'og:url', content:'https://tangleshairextensionsandmore.com' },
+        { name: 'fb:admins', content: '238806386155182' },
+        { name: 'twitter:image:src', content: kellieSocials },
       ]}
     >
       <link rel="shortcut icon" type="image/svg" href={kellieLogo} />
