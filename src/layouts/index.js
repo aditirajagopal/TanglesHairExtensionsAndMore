@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) =>
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:title', content: 'Tangles Hair Extensions and More' },
         { name: 'twitter:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
-        { name: 'twitter:image', content: kellieLogo },
+        { name: 'twitter:image', content: kellieSocials },
         { name: 'og:title', content: 'Tangles Hair Extensions and More' },
         { name: 'og:image', content: kellieSocials },
         { name: 'og:description', content: 'Tangles Hair Extensions and More. Where genuinely caring about your hair is a wonderful experience' },
