@@ -27,7 +27,7 @@ const IndexPage = () =>
 	      </time>
 	      <br/>
 	      <br/>
-		<a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize" href="https://www.styleseat.com/m/book/p/606937">Book your next appointment today</a>
+		<a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize" href="https://kelliesmith.glossgenius.com/">Book your next appointment today</a>
   	    </blockquote>
 	  </header>
 	  <div className="fn fl-ns w-60-ns content">
@@ -51,56 +51,44 @@ const IndexPage = () =>
 	  	<h1 className="f1 lh-title fw4 saffron-mango">Services</h1>
 		<div className="pa4">
 		  <div className="overflow-auto">
-		  	<h2 className="f3 lh-title fw4 maize">Hair Cuts</h2>
+		  	<h2 className="f3 lh-title fw4 maize">Cutting & Styling</h2>
 		    <table className="f6 w-100 mw8 center" cellspacing="0">
 		      <tbody className="lh-copy">
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Clipper Cuts</td>
-		          <td className="pv3 pr3 b--maize white">$25</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Bangs Trim</td>
+		          <td className="pv3 pr3 b--maize white">$15for 15 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Scissor Cuts</td>
-		          <td className="pv3 pr3 b--maize white">$35</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Haircut with Chemical Service</td>
+		          <td className="pv3 pr3 b--maize white">$25 and up for 45 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Kids Under 10</td>
-		          <td className="pv3 pr3 b--maize white">$20</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Kids Cut (Under 10)</td>
+		          <td className="pv3 pr3 b--maize white">$25 for 30 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Baby's First Haircut</td>
 		          <td className="pv3 pr3 b--maize white">Free</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Bangs Trim</td>
-		          <td className="pv3 pr3 b--maize white">$10</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Clipper Cuts</td>
+		          <td className="pv3 pr3 b--maize white">$30 for 30 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Beard Trim</td>
-		          <td className="pv3 pr3 b--maize white">$15</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Scissor Cuts</td>
+		          <td className="pv3 pr3 b--maize white">$40 for 60 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Mustache Trim</td>
-		          <td className="pv3 pr3 b--maize white">$10</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Deep Conditioning Treatment</td>
+		          <td className="pv3 pr3 b--maize white">$70 for 90 minutes</td>
 		        </tr>
-		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Beard & Mustache</td>
-		          <td className="pv3 pr3 b--maize white">$20</td>
-		        </tr>
-		      </tbody>
-		    </table>
-		  </div>
-		  <br/>
-		  <div className="overflow-auto">
-		  	<h2 className="f3 lh-title fw4 maize">Styling</h2>
-		    <table className="f6 w-100 mw8 center" cellspacing="0">
-		      <tbody className="lh-copy">
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Shampoo & Blow dry</td>
-		          <td className="pv3 pr3 b--maize white">$25</td>
+		          <td className="pv3 pr3 b--maize white">$30 for 30 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Shampoo, Blow dry + Hot Iron</td>
-		          <td className="pv3 pr3 b--maize white">$30</td>
+		          <td className="pv3 pr3 b--maize white">$55 for 60 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Flat Iron Straightening</td>
@@ -108,11 +96,26 @@ const IndexPage = () =>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Up-do</td>
-		          <td className="pv3 pr3 b--maize white">$60</td>
+		          <td className="pv3 pr3 b--maize white">$70 and up for 60 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Up-do w/ Clip In Extensions</td>
-		          <td className="pv3 pr3 b--maize white">$90</td>
+		          <td className="pv3 pr3 b--maize white">$90 and up for 120 minutes
+		          <br/>
+       		  	  <small className="saffron-mango">Additional hair pieces can be added for extra volume and or length</small>
+		          </td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Beard Trim</td>
+		          <td className="pv3 pr3 b--maize white">$20 for 15 minutes</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Mustache Trim</td>
+		          <td className="pv3 pr3 b--maize white">$13 for 15 minutes</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Beard & Mustache</td>
+		          <td className="pv3 pr3 b--maize white">$30 for 30 minutes</td>
 		        </tr>
 		      </tbody>
 		    </table>
@@ -124,56 +127,56 @@ const IndexPage = () =>
 		    <table className="f6 w-100 mw8 center" cellspacing="0">
 		      <tbody className="lh-copy">
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Just Roots 1 Color</td>
-		          <td className="pv3 pr3 b--maize white">$60</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Just Roots</td>
+		          <td className="pv3 pr3 b--maize white">$65 for 90 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Full Head/Color Refresher</td>
-		          <td className="pv3 pr3 b--maize white">$75</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Full Head/Refresh Color</td>
+		          <td className="pv3 pr3 b--maize white">$80 for 90 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Partial Foil (up to 20 foils)</td>
-		          <td className="pv3 pr3 b--maize white">$50</td>
+		          <td className="pv3 pr3 b--maize white">$65 for 90 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Full Foil (up to 50 foils)</td>
-		          <td className="pv3 pr3 b--maize white">$80</td>
+		          <td className="pv3 pr3 b--maize white">$85 for 120 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Babylites (up to 90 foils)</td>
-		          <td className="pv3 pr3 b--maize white">$120</td>
+		          <td className="pv3 pr3 b--maize white">$150 for 210 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Color w/Partial Foil</td>
-		          <td className="pv3 pr3 b--maize white">$90</td>
+		          <td className="pv3 pr3 b--maize white">$95 for 180 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Color w/Full Foil</td>
-		          <td className="pv3 pr3 b--maize white">$120</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Color w/Full Head Foil</td>
+		          <td className="pv3 pr3 b--maize white">$130 for 180 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Color w/Babylites</td>
-		          <td className="pv3 pr3 b--maize white">$160</td>
+		          <td className="pv3 pr3 b--maize white">$170 and up for 240 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Partial Balayage</td>
-		          <td className="pv3 pr3 b--maize white">$50</td>
+		          <td className="pv3 pr3 b--maize white">$65 for 150 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Full Balayage</td>
-		          <td className="pv3 pr3 b--maize white">$80+</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Full Head Balayage</td>
+		          <td className="pv3 pr3 b--maize white">$85 for 150 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Color w/Partial Balayage</td>
-		          <td className="pv3 pr3 b--maize white">$90</td>
+		          <td className="pv3 pr3 b--maize white">$95 for 180 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Color w/Full Balayage</td>
-		          <td className="pv3 pr3 b--maize white">$120+</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Color w/Full Head Balayage</td>
+		          <td className="pv3 pr3 b--maize white">$130 for 180 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Ombre</td>
-		          <td className="pv3 pr3 b--maize white">$90</td>
+		          <td className="pv3 pr3 b--maize white">$130 and up for 180 minutes</td>
 		        </tr>
 		      </tbody>
 		    </table>
@@ -186,23 +189,11 @@ const IndexPage = () =>
 		      <tbody className="lh-copy">
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Brazilian Blowout</td>
-		          <td className="pv3 pr3 b--maize white">$160</td>
-		        </tr>
-		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Below Bra Strap</td>
-		          <td className="pv3 pr3 b--maize white">$240</td>
-		        </tr>
-		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">GK Smoothing</td>
-		          <td className="pv3 pr3 b--maize white">$160</td>
-		        </tr>
-		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Below Bra Strap</td>
-		          <td className="pv3 pr3 b--maize white">$240</td>
+		          <td className="pv3 pr3 b--maize white">$160 and up for 180 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Japanese Blowout</td>
-		          <td className="pv3 pr3 b--maize white">$280</td>
+		          <td className="pv3 pr3 b--maize white">$225 and upfor 210 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Below Bra Strap</td>
@@ -210,22 +201,18 @@ const IndexPage = () =>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Basic Perm</td>
-		          <td className="pv3 pr3 b--maize white">$60</td>
+		          <td className="pv3 pr3 b--maize white">$75 for 90 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Specialty Perm</td>
-		          <td className="pv3 pr3 b--maize white">$120+</td>
-		        </tr>
-		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Straightening Perm</td>
-		          <td className="pv3 pr3 b--maize white">$120+</td>
+		          <td className="pv3 pr3 b--maize white">$140 and up for 180 minutes</td>
 		        </tr>
 		      </tbody>
 		    </table>
 		  </div>
 		  <br/>
 		  <div className="overflow-auto">
-		  	<h2 className="f3 lh-title fw4 maize">Extensions</h2>
+		  	<h2 className="f3 lh-title fw4 maize">Hair Extensions</h2>
 		    <table className="f6 w-100 mw8 center" cellspacing="0">
 		      <tbody className="lh-copy">
 		        <tr>
@@ -233,36 +220,60 @@ const IndexPage = () =>
 		          <td className="pv3 pr3 b--maize white">Free</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Reset</td>
-		          <td className="pv3 pr3 b--maize white">$160</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Fusion Hair Extensions</td>
+		          <td className="pv3 pr3 b--maize white">
+		          	$350 and up for 180 minutes
+		          	<br/>
+     		  	  	<small className="saffron-mango">Consultation is free. Individual strands of hair are attached with micro bead fitting to extend length and add volume to natural hair.</small>
+		          </td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Extensions Install Only</td>
+		          <td className="pv3 pr3 b--maize white">$100 and up for 180 minutes</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Extensions Install Unknown Brand</td>
+		          <td className="pv3 pr3 b--maize white">$180 and up for 180 minutes</td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Extensions Reset</td>
+		          <td className="pv3 pr3 b--maize white">
+		          	$160 for 300 minutes
+		          	<br/>
+	       		  	<small className="saffron-mango">When 1 inch of new growth has been reached fusion hair extensions are removed. The natural hair is freed of all matting and tangling and is prepped for hair replacement.</small>
+		          </td>
+		        </tr>
+		        <tr>
+		          <td className="pv3 pr3 b--maize apricot-white">Extensions Reset Unknown brand</td>
+		          <td className="pv3 pr3 b--maize white">$250 for 300 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Remove Only</td>
-		          <td className="pv3 pr3 b--maize white">$90</td>
-		        </tr>
-		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Install Only</td>
-		          <td className="pv3 pr3 b--maize white">$90</td>
+		          <td className="pv3 pr3 b--maize white">$100 for 120 minutes</td>
 		        </tr>
 		      </tbody>
 		    </table>
 		  </div>
 		  <br/>
 		  <div className="overflow-auto">
-		  	<h2 className="f3 lh-title fw4 maize">Add Ons</h2>
+		  	<h2 className="f3 lh-title fw4 maize">Additionals</h2>
 		    <table className="f6 w-100 mw8 center" cellspacing="0">
 		      <tbody className="lh-copy">
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Brow, Lip Or Chin Wax</td>
-		          <td className="pv3 pr3 b--maize white">$10 each</td>
+		          <td className="pv3 pr3 b--maize white">$13 for 15 minutes</td>
 		        </tr>
 		        <tr>
 		          <td className="pv3 pr3 b--maize apricot-white">Full Face Wax</td>
-		          <td className="pv3 pr3 b--maize white">$27</td>
+		          <td className="pv3 pr3 b--maize white">$30 for 30 minutes</td>
 		        </tr>
 		        <tr>
-		          <td className="pv3 pr3 b--maize apricot-white">Airbrush Makeup Application</td>
-		          <td className="pv3 pr3 b--maize white">$45</td>
+		          <td className="pv3 pr3 b--maize apricot-white">Olaplex Repair Treatment</td>
+		          <td className="pv3 pr3 b--maize white">
+		          	$90 for 45 minutes
+		          	<br/>
+	       		  	<small className="saffron-mango">Service includes a 2 month supply of Olaplex #3 take home treatment</small>
+		          </td>
 		        </tr>
 		      </tbody>
 		    </table>
@@ -301,7 +312,8 @@ const IndexPage = () =>
 
 	  	<h1 className="f1 lh-title fw4 saffron-mango">Get in Touch</h1>
 		<div className="ph3">
-		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.styleseat.com/m/book/p/606937">Styleseat</a>
+		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://kelliesmith.glossgenius.com/">Sola Genius</a>
+		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.solasalonstudios.com/salon-professional/kellie-smith-1">Sola Salons Website</a>
 		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.yelp.com/biz/tangles-hair-extensions-and-more-rochester">Yelp</a>
 		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.facebook.com/Tangles-Hair-Extensions-and-More-238806386155182/">Facebook</a>
 		</div>
