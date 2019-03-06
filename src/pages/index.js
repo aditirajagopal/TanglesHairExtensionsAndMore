@@ -27,7 +27,7 @@ const IndexPage = () =>
 	      </time>
 	      <br/>
 	      <br/>
-		<a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize" href="https://kelliesmith.glossgenius.com/">Book your next appointment today</a>
+		<a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize" href="https://tangleskelliesmith.glossgenius.com/">Book your next appointment today</a>
   	    </blockquote>
 	  </header>
 	  <div className="fn fl-ns w-60-ns content">
@@ -312,7 +312,7 @@ const IndexPage = () =>
 
 	  	<h1 className="f1 lh-title fw4 saffron-mango">Get in Touch</h1>
 		<div className="ph3">
-		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://kelliesmith.glossgenius.com/">Sola Genius</a>
+		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://tangleskelliesmith.glossgenius.com/">Sola Genius</a>
 		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.solasalonstudios.com/salon-professional/kellie-smith-1">Sola Salons Website</a>
 		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.yelp.com/biz/tangles-hair-extensions-and-more-rochester">Yelp</a>
 		  <a className="f6 grow no-underline br-pill ph3 pv2 mb2 dib white bg-maize addMargin" href="https://www.facebook.com/Tangles-Hair-Extensions-and-More-238806386155182/">Facebook</a>
